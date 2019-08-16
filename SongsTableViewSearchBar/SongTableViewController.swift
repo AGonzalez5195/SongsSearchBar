@@ -76,7 +76,7 @@ class SongTableViewController: UIViewController, UITableViewDelegate, UITableVie
 
 extension SongTableViewController: UISearchBarDelegate {
     func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
-        searchString = searchBar.text
+        searchString = searchText
     }
     
     func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
